@@ -1,0 +1,12 @@
+<map style="width:100%; height:700rpx;margin-bottom: 50rpx;" longitude="{{longitude}}" latitude="{{latitude}}" scale="17"
+  markers="{{markers}}"  bindmarkertap="navRoad" data-marker="{{markers[0]}}"
+  show-location />
+<view class="phone" bindtap="Call">
+  地址：湖南工商大学萃雅食堂
+</view>
+<view class="phone" bindtap="Call">
+  电话：17854321212(可点击拨打)
+</view>
+<view class="phone" bindtap="Copy">
+  微信：17854321212(可点击复制)
+</view>

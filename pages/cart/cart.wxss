@@ -1,0 +1,175 @@
+page {
+  background: #F6F6F6;
+}
+
+.list_root {
+  margin-bottom: 90rpx;
+}
+
+.shopcart_delete {
+  margin-right: 15rpx;
+}
+
+.caipin_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3rpx 3rpx 20rpx #ccc;
+  border: 1px gainsboro solid;
+  padding: 5rpx;
+  margin: 20rpx 10rpx;
+}
+
+.cai_img {
+  width: 140rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  text-align: center;
+  margin-left: 10rpx;
+  margin-right: 30rpx;
+}
+
+.cai_root2 {
+  flex: 1;
+  min-width: 0
+}
+
+.cai_title {
+  font-weight: 400;
+  font-size: 40rpx;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.cai_sell {
+  font-size: 33rpx;
+  color: gray;
+}
+
+/*加减器*/
+.stepper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.price-stepper {
+  /*价格与数量加减器*/
+  padding-right: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*价格*/
+
+.cai_price {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: var(--themeColor);
+}
+
+/*人民币符号*/
+
+.cai_price:before {
+  content: "￥";
+  font-size: 14px;
+}
+
+
+
+.jiajian {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.value_num {
+  width: 50rpx;
+  text-align: center;
+}
+
+/*数量*/
+
+.value {
+  font-size: 28rpx;
+  margin: 0 20rpx;
+  font-weight: bold;
+}
+
+/* 购物车为空 */
+.cartNull{
+    position: relative;
+}
+.descText{
+    margin-left: 150rpx;
+    margin-top: 550rpx;
+    padding-left: 100rpx;
+}
+.descText .desc1{
+    margin-bottom: 20rpx;
+    font-size: 17px;
+}
+.descText text{
+    font-size: 15px;
+    color: #8d8989;
+}
+.nothing {
+  margin-top: 50rpx;
+  margin-left: -80rpx;
+  text-align: center;
+  width: 400rpx;
+  padding: 20rpx;
+  color: #fff;
+  border: 1rpx solid  rgb(212, 99, 99);
+  background: #d81e06;
+  border-radius: 100rpx;
+}
+
+/*底部区域  */
+
+.bottom_box {
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0px;
+  z-index: 100;
+  background-color: #fef4d1;
+}
+.bottom_left {
+  width: 160rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+  background-color:#ee874b;
+}
+
+.all_money {
+  flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.choose_ok {
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 40rpx;
+  background-color: var(--themeColor);
+}

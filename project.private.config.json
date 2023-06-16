@@ -1,0 +1,161 @@
+{
+    "setting": {
+        "compileHotReLoad": true
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "我的订单",
+                    "pathName": "pages/myOrder/myOrder",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/address/address",
+                    "pathName": "pages/address/address",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "我的评价",
+                    "pathName": "pages/mycomment/mycomment",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/food/food",
+                    "pathName": "pages/food/food",
+                    "query": "tableNum=1",
+                    "scene": null
+                },
+                {
+                    "name": "pages/pay/pay",
+                    "pathName": "pages/pay/pay",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/admin/admin",
+                    "pathName": "pages/admin/admin",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/change/change",
+                    "pathName": "pages/change/change",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/mycomment/mycomment",
+                    "pathName": "pages/mycomment/mycomment",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/me/me",
+                    "pathName": "pages/me/me",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/paihao/paihao",
+                    "pathName": "pages/paihao/paihao",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/adminHouchu/adminHouchu",
+                    "pathName": "pages/adminHouchu/adminHouchu",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/adminPaihao/adminPaihao",
+                    "pathName": "pages/adminPaihao/adminPaihao",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/food2/food2",
+                    "pathName": "pages/food2/food2",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/cart/cart",
+                    "pathName": "pages/cart/cart",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/food/food",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/admin/admin",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/adminHouchu/adminHouchu",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/cart/cart",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/myOrder/myOrder",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/me/me",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/home/home",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/food2/food2",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/myOrder/myOrder",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "projectname": "%E4%BA%91%E5%BC%80%E5%8F%91%E7%82%B9%E9%A4%90%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A8%A1%E6%8B%9F%E6%94%AF%E4%BB%98%E7%89%8820230528",
+    "libVersion": "2.31.1"
+}

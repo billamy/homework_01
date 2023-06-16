@@ -1,0 +1,69 @@
+.picker {
+  margin: 30rpx;
+  font-size: 45rpx;
+  text-align: center;
+}
+.picker image{
+    position: absolute;
+    top: 30rpx;
+    left: 140rpx;
+    width: 60rpx;
+    height: 60rpx;
+}
+.tabRoot {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
+
+.tab {
+  margin: 20rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tabTip {
+  font-size: 1.2rem;
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+}
+
+.tabTip .tabTipNum {
+  font-size: 1.2rem;
+}
+
+.tabNum {
+  background: #f4c903;
+  color: white;
+  text-align: center;
+  width: 500rpx;
+  padding: 40rpx;
+  font-size: 1.4rem;
+  border-radius: 40rpx;
+}
+
+.paiguo {
+  /* 已经排过号 */
+  background: rgb(172, 169, 169);
+}
+
+.qujiucan {
+  /* 可以去就餐了 */
+  padding: 0 50rpx;
+  margin: 50rpx 0;
+  font-size: 32rpx;
+}
+.qujiucan image{
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 15rpx;
+}
+
+.chongxinpaihao {
+  /* 重新排号 */
+  font-size: 42rpx;
+  text-align: center;
+  margin-top: 40rpx;
+}

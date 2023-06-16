@@ -1,0 +1,83 @@
+<!--pages/me/me.wxml-->
+<view class="header" wx:if="{{isShowUserName}}">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <text class="userinfo-nickname">{{userInfo.realname?userInfo.realname:userInfo.nickName}}</text>
+        <!-- <text class="tuichu" catchtap="tuichu">退出登录</text> -->
+</view>
+<!--如果用户没有授权，显示登陆按钮  -->
+<view wx:if="{{!isShowUserName}}" class="btn-login">
+    <button type="primary" bindtap="closeTank">授权登陆</button>
+</view>
+<view class='line_5px' />
+<view wx:if="{{isShowUserName}}">
+    <!-- 我的订单 -->
+    <view class='my_item' bindtap="goToMyOrder">
+        <text>我的订单</text>
+        <view class='right_arrow' />
+    </view>
+    <view class='my_item' bindtap="goToPaiHao">
+        <text>我的排号</text>
+        <view class='right_arrow' />
+    </view>
+    <!-- 评价 -->
+    <view class='my_item' bindtap="goCommentPage">
+        <text>评价列表</text>
+        <view class='right_arrow' />
+    </view>
+  
+</view>
+
+<!-- 没有登录就可以显示的 -->
+
+<!-- 反馈建议 -->
+<view class='my_item'>
+    <button class="button" open-type="feedback">反馈建议</button>
+    <view class='right_arrow' />
+</view>
+<!-- 在线客服 -->
+<view class='my_item'>
+    <button class="button" open-type="contact">在线客服</button>
+    <view class='right_arrow' />
+</view>
+<!-- 管理员管理订单 -->
+<view class='my_item' bindtap="goAdmin">
+    <text>管理员登录</text>
+    <view class='right_arrow' />
+</view>
+
+  <!-- 退出登录 -->
+<view  wx:if="{{isShowUserName}}" class="tuichu">
+    <view class="tuichu" catchtap="tuichu">退出登录</view>
+</view>
+
+
+<!-- 头像昵称基本信息弹框 -->
+<view>
+    <view class="wrap" bindtap="closeTank" wx:if="{{userInfo_tank}}"></view>
+    <view class="userInfo_tank {{userInfo_tank?'transfromjoin':'transfromout'}}">
+        <view class="tank_title">
+            <text>申请获取您的头像、昵称</text>
+        </view>
+        <view class="tank_content">
+            <text>头像：</text>
+            <button class="avatar_button" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+                <image class="avatar_url" src="{{avatarUrl}}"></image>
+                <view class="pos_photo">
+                    <text class="iconfont icon-paizhao"></text>
+                </view>
+            </button>
+        </view>
+        <view class="tank_content">
+            <text>昵称：</text>
+            <input form-type='submit' bindblur="getNickName" placeholder="请输入昵称" type="nickname" />
+        </view>
+        <view class="confirm_button">
+            <view>
+                <button bindtap="closeTank">拒绝</button>
+            </view>
+            <view>
+                <button bindtap="submit" type="primary">允许</button>
+            </view>
+        </view>
+    </view>
+</view>

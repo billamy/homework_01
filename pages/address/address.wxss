@@ -1,0 +1,4 @@
+.phone{
+    margin-bottom: 15rpx;
+    margin-left: 20rpx;
+}
